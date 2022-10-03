@@ -1,0 +1,349 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Biryani:wght@200;300;400;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Artifika&family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Artifika&family=Poppins:wght@400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main{
+    width: 100%;
+    height: 100vh;
+    background-image: url(img/Contact/BG.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+nav{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    padding: 2%;
+    font-family: Poppins, sans-serif;
+}
+
+.nav-links ul{
+    display: flex;
+    list-style: none;
+}
+
+.nav-links li a{
+    text-decoration: none;
+    margin: 25px;
+    color: white;
+    transition: all 0.1s ease-in;
+    text-shadow: 0px 1px  2px black;
+}
+
+.nav-links li a:hover{
+    font-weight: bold;
+}
+
+.contact-container{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Poppins, sans-serif;
+}
+
+.contact-container h1{
+    font-size: 40px;
+    margin-left: 20px;
+}
+
+.contact-box{
+    width: 80%;
+    height: 50%;
+    padding: 1%;
+    display: flex;
+    flex-direction: column;
+    background: rgba( 255, 255, 255, 0.75 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 10px );
+    -webkit-backdrop-filter: blur( 10px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+
+.contact-information{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.contact-1{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 1%;
+    width: 200px;
+    height: 220px;
+    background: rgba( 255, 255, 255, 0.5 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 10px );
+    -webkit-backdrop-filter: blur( 10px );
+    border-radius: 30px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.contact-1 i{
+    font-size: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.contact-1 p{
+    margin-top: 40px;
+}
+
+
+.contact-2{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 1%;
+    width: 200px;
+    height: 220px;
+    background: rgba( 255, 255, 255, 0.5 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 10px );
+    -webkit-backdrop-filter: blur( 10px );
+    border-radius: 30px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.contact-2 i{
+    font-size: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.contact-2 p{
+    margin-top: 40px;
+}
+
+.contact-3{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 1%;
+    width: 200px;
+    height: 220px;
+    background: rgba( 255, 255, 255, 0.5 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 10px );
+    -webkit-backdrop-filter: blur( 10px );
+    border-radius: 30px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.contact-3 h3{
+    font-size: 18px;
+}
+.contact-3 i{
+    font-size: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.contact-3 a{
+    margin-top: 40px;
+    color: black;
+}
+
+#facebook a i{
+    font-size: 10px;
+}
+
+
+@media only screen and (max-width: 530px) {
+    main{
+        width: 100%;
+        height: 100vh;
+    }
+    
+    #background-video {
+        width: 100vw;
+        height: 100vh;
+        object-fit: cover;
+        position: fixed;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        z-index: -1;
+    }
+    
+    nav{
+        display: flex;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        padding: 2%;
+        font-family: Poppins, sans-serif;
+    }
+    
+    .nav-links ul{
+        display: flex;
+        list-style: none;
+    }
+    
+    .nav-links li a{
+        text-decoration: none;
+        color: white;
+        margin: 20px;
+        font-size: 12px;
+        transition: all 0.1s ease-in;
+        text-shadow: 0 0 2px black;
+    }
+    
+    .nav-links li a:hover{
+        text-shadow: 0 0 10px black;
+    }
+    
+    .contact-container{
+        width: 100%;
+        height: 90%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: Poppins, sans-serif;
+    }
+    
+    .contact-box h1{
+        font-size: 20px;
+        text-align: center;
+        margin: 0;
+    }
+    
+    .contact-box{
+        margin-top: 10px;
+        width: 80%;
+        height: 100%;
+        padding: 1%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        background: rgba( 255, 255, 255, 0.75 );
+        box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+        backdrop-filter: blur( 10px );
+        -webkit-backdrop-filter: blur( 10px );
+        border-radius: 10px;
+        border: 1px solid rgba( 255, 255, 255, 0.18 );
+    }
+    
+    
+    .contact-information{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    
+    .contact-1{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+        padding: 1%;
+        width: 170px;
+        height: 100px;
+        background: rgba( 255, 255, 255, 0.5 );
+        box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+        backdrop-filter: blur( 10px );
+        -webkit-backdrop-filter: blur( 10px );
+        border-radius: 30px;
+        border: 1px solid rgba( 255, 255, 255, 0.18 );
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    }
+    .contact-1 h3{
+        font-size: 12px;
+    }
+    .contact-1 i{
+        font-size: 20px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .contact-1 p{
+        margin-top: 5px;
+    }
+    
+    
+    .contact-2{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+        padding: 1%;
+        width: 170px;
+        height: 100px;
+        background: rgba( 255, 255, 255, 0.5 );
+        box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+        backdrop-filter: blur( 10px );
+        -webkit-backdrop-filter: blur( 10px );
+        border-radius: 30px;
+        border: 1px solid rgba( 255, 255, 255, 0.18 );
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    }
+    .contact-2 h3{
+        font-size: 12px;
+    }
+    .contact-2 i{
+        font-size: 20px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .contact-2 p{
+        margin-top: 5px;
+    }
+    
+    .contact-3{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+        padding: 1%;
+        width: 170px;
+        height: 100px;
+        background: rgba( 255, 255, 255, 0.5 );
+        box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+        backdrop-filter: blur( 10px );
+        -webkit-backdrop-filter: blur( 10px );
+        border-radius: 30px;
+        border: 1px solid rgba( 255, 255, 255, 0.18 );
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    }
+    .contact-3 h3{
+        font-size: 12px;
+    }
+    .contact-3 i{
+        font-size: 20px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .contact-3 a{
+        margin-top: 5px;
+        color: black;
+    }
+    
+    #facebook a i{
+        font-size: 12px;
+    }
+
+}

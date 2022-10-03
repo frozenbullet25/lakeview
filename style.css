@@ -1,0 +1,286 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Biryani:wght@200;300;400;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Artifika&family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Artifika&family=Poppins:wght@400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main{
+    width: 100%;
+    height: 100%;
+    user-select: none;
+}
+
+#background-video {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+nav{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    padding: 2%;
+    font-family: Poppins, sans-serif;
+}
+
+.nav-links ul{
+    display: flex;
+    list-style: none;
+}
+
+.nav-links li a{
+    text-decoration: none;
+    margin: 25px;
+    color: white;
+    transition: all 0.1s ease-in;
+    text-shadow: 0px 1px  2px black;
+}
+
+.nav-links li a:hover{
+    font-weight: bold;
+}
+
+.head-container{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    font-family: Biryani, sans-serif;
+    text-align: center;
+    color: white;
+}
+
+.heading-title{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 200px;
+    cursor: default;
+}
+
+.heading-title h1{
+    text-align: center;
+    font-family: Biryani;
+    font-size: 84px;
+    line-height: 40px;
+    margin-top: 0;
+    text-shadow: 0 4px 3px black;
+}
+
+.heading-big-letters{
+    font-size: 100px;
+    font-weight: 500;
+}
+
+#heading-medium-letters{
+    font-size: 36px;
+}
+
+#heading-small-letters{
+    font-size: 32px;
+}
+
+#heading-bottom-letters{
+    font-family: Poppins;
+}
+
+.heading-title-2{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-shadow: 0 4px 5px black;
+}
+
+.heading-title h2{
+    font-size: 32px;
+    text-align: center;
+    margin: 30px 20px;
+}
+
+.heading-title a{
+    color: white;
+    text-decoration: none;
+    transition: all 0.1s ease-in;
+}
+
+.heading-title a:hover{
+    transform: scale(1.1);
+}
+
+.heading-button-divider{
+    width: 320px;
+    height: 300px;
+}
+
+.heading-title button{
+    width: 320px;
+    height: 75px;
+    padding: 2px;
+    border-radius: 50px;
+    background-color: #46C269;
+    border: none;
+    font-size: 32px;
+    color: white;
+    cursor: pointer;
+    transition: all 0.1s ease-in;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.heading-title button:hover{
+    transform: scale(1.1);
+    background-color: #56e07d;
+}
+
+@media only screen and (max-width: 530px) {
+    main{
+        width: 100%;
+        height: 100vh;
+    }
+    
+    #background-video {
+        width: 100vw;
+        height: 100vh;
+        object-fit: cover;
+        position: fixed;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        z-index: -1;
+    }
+    
+    nav{
+        display: flex;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        padding: 2%;
+        font-family: Poppins, sans-serif;
+    }
+    
+    .nav-links ul{
+        display: flex;
+        list-style: none;
+    }
+    
+    .nav-links li a{
+        text-decoration: none;
+        color: white;
+        margin: 20px;
+        font-size: 12px;
+        transition: all 0.1s ease-in;
+        text-shadow: 0 0 2px black;
+    }
+    
+    .nav-links li a:hover{
+        text-shadow: 0 0 10px black;
+    }
+    
+    .head-container{
+        width: 100%;
+        height: 80%;
+        display: flex;
+        justify-content: center;
+        font-family: Biryani, sans-serif;
+        text-align: center;
+        color: white;
+    }
+    
+    .heading-title{
+        display: flex;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        cursor: default;
+        user-select: none;
+    }
+    
+    .heading-title h1{
+        text-align: center;
+        font-family: Biryani;
+        font-size: 40px;
+        line-height: 20px;
+        margin-top: 0;
+        text-shadow: 0 4px 5px black;
+    }
+    
+    .heading-big-letters{
+        font-size: 40px;
+        font-weight: 500;
+    }
+    
+    #heading-medium-letters{
+        font-size: 20px;
+        font-weight: 500;
+    }
+    
+    #heading-small-letters{
+        font-size: 15px;
+        font-weight: 500;
+    }
+    
+    #heading-bottom-letters{
+        font-family: Poppins;
+    }
+    
+    
+    .heading-button-divider{
+        width: 320px;
+        height: 50%;
+    }
+    
+    .heading-title button{
+        width: 200px;
+        height: 45px;
+        padding: 2px;
+        border-radius: 50px;
+        background-color: #46C269;
+        border: none;
+        font-size: 16px;
+        color: white;
+        cursor: pointer;
+        transition: all 0.1s ease-in;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    }
+    
+    .heading-title button:hover{
+        transform: scale(1.1);
+        background-color: #56e07d;
+    }
+
+    
+    .heading-title-2{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-shadow: 0 4px 5px black;
+    }
+    
+    .heading-title h2{
+        font-size: 15px;
+        text-align: center;
+        margin: 30px 20px;
+    }
+    
+    .heading-title a{
+        color: white;
+        text-decoration: none;
+    }
+}
